@@ -495,7 +495,23 @@ body.light-theme {
     background-color: var(--light-color);
 }
 /* Older posts */
+.older-posts-article-image-wrapper,
+.older-post .article {
+    min-height: var(--item-min-height-sm);
+}
 
+.older-posts .article {
+    background-color: var(--secondary-background-color);
+}
+
+.older-posts-article-image-wrapper {
+    position: relative;
+}
+
+.older-posts-grid-wrapper .search-form-container {
+    position: static;
+    background-color: transparent;
+}
 /* Popular tags */
 
 /* Newsletter */
